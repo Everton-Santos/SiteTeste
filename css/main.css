@@ -135,16 +135,28 @@ button.slick-next {
 }
 
 .slick-dots li button {
-    
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .slick-dots {
     margin: 0 auto;
     width: 50%;
-    position: relative;
-    left: 22%;
+    position: absolute;
+    left: 50%;
+    top: 550px;
+}
+
+li.slick-active button {
+    background: #00bac6;
 }
 
 .slick-dots li {
+    padding-left: 10px ;
     display: inline-block;
 }
