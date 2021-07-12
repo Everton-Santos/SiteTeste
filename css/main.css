@@ -249,9 +249,19 @@ body {
         color: #ffffff;
     }
 
+    .footer-2 {
+        background-image: url('../img/footer2.png');
+        color: #c1c1c1;
+        height: 90px;
+    }
+
     .footer p {
         width: 90%;
         text-align: left;
+    }
+
+    .footer-2 p {
+        padding: 10px;
     }
 
     .clock {
@@ -267,4 +277,25 @@ body {
         float: left;
         background-repeat: no-repeat;
         padding-left: 5px;
+    }
+
+    .local:before, .emailico:before, .telefoneico:before {
+        content: '';
+        width: 17px;
+        height: 24px;
+        display: inline-block;
+        float: left;
+        background-repeat: no-repeat;
+        padding-left: 5px;
+    }
+    .local:before {
+        background-image: url('../img/local.png');
+    }
+
+    .emailico:before {
+        background-image: url('../img/email.png');
+    }
+
+    .telefoneico:before {
+        background-image: url('../img/telefoneico.png');
     }
